@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to left, #5befef, #076496);
+  }
+  
+ .logo img {
+    width:15%;
+  }
+  .main-sentence{
+    background: linear-gradient(to left, #5befef, #076496);
+
+   
+    padding-right: 10px;
+    justify-self: center;
+    align-self: center;
+  }
+  .menu-btn {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .bar {
+    width: 30px;
+    height: 4px;
+    background-color: #076496;
+    border-radius: 5px;
+  }
+  .intro {
+    background: linear-gradient(to left, #5befef, #076496);
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .expertise {
+    background: #4D94E6;
+    padding: 60px 20px;
+  }
+  .expertises-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  .expertise-box {
+    margin: 20px;
+    background: #21DADB;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+  }
+  .expertise-box:hover {
+    transform: scale(1.2);
+  }
